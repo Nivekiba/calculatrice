@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="calco.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div id="center">
+        <h3>CalcuWebtor</h3>
+        <div id="display">
+            <h2 id="expr"></h2>
+            <p id="res"></p>
+        </div>
+        <div id="controls">
+            <table>
+                <tr>
+                    <td><button class="special">CA</button></td>
+                    <td><button class="special">&larr;</button></td>
+                    <td><button class="special">&divide;</button></td>
+                    <td><button class="special">x</button></td>
+                </tr>
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button class="special">-</button></td>
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button class="special">+</button></td>
+                </tr>
+                <tr>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td rowspan="2"><button class="special">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button>0</button></td>
+                    <td><button>.</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="calco.js"></script>
+</body>
+</html>
